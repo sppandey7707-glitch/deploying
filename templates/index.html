@@ -1,11 +1,531 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+    <title>my python notes</title>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="../static/style.css">
+
 </head>
+
 <body>
 
-<p>hello this is shubham pandey</p>
+
+<b>
+    <u><h1><center>Python</center></h1> <br> <br><br></u>
+    <center><h1>Unit-1</h1></center>
+    <h2>python Indroduction</h2> <br>
+   <strong>✅ 1. What is Python? </strong><br>  <br>
+
+<b>Python is a high-level, interpreted programming language. <br>
+
+Created by Guido van Rossum in 1991. <br>
+
+It is easy to read, write, and learn. <br>
+
+Used in Web Development, Data Science, Machine Learning, Automation, AI, etc. </b> <br> <br> <hr>
+
+✅ 2. Why Python is Popular? <br> <br>
+
+Simple Syntax → Easy to learn for beginners. <br>
+
+Open Source → Free to use. <br>
+
+Huge Library Support → Many pre-built modules. <br>
+
+Cross-platform → Works on Windows, Linux, macOS. <br>
+
+Interpreted Language → No need to compile; executes line by line. <br> <br> <hr>
+
+✅ 3. Features of Python <br>
+
+✔ Easy to Learn and Read <br>
+✔ Supports Object-Oriented and Procedural Programming <br>
+✔ Dynamic Typing (no need to declare variable type) <br>
+✔ Large Standard Library (like math, os, sys) <br>
+✔ Automatic Memory Management (Garbage Collection) <br>
+✔ Extensible and Embeddable <br> <br><hr>
+
+✅ 4. Python Syntax Basics <br>
+
+Python code is simple and uses indentation instead of curly braces {}. <br>
+Example: <br> <br>
+
+if 5 > 2: <br>
+    print("Five is greater than two") <br> <br> <hr>
+
+✅ 5. Data Types in Python <br>
+
+Numeric → int, float, complex <br>
+
+Sequence → list, tuple, range, str <br>
+
+Mapping → dict (dictionary) <br>
+
+Set → set, frozenset <br>
+
+Boolean → True / False <br>
+
+Binary → bytes, bytearray <br> <br><hr>+-
+
+✅ 6. Variables in Python <br>
+
+Variables store data. <br>
+
+No need to declare type. <br>
+Example: <br><br>
+
+x = 10 <br>
+name = "Python"  <br><hr>
+
+✅ 7. Comments in Python <br>''
+
+Single-line comment → # This is a comment <br>
+
+Multi-line comment → <br>
+
+"""<br>
+This is a <br>
+multi-line comment <br> <br> <hr>
+"""
+
+✅ 8. Python is Case-Sensitive <br>
+
+Variable names are case-sensitive. <br>
+Example: <br><br>
+
+x = 5  <br>
+X = 10  <br>
+# x and X are different variables  <br><br><hr>
+
+✅ 9. Python File Extension <br>
+
+👉 Python files are saved with .py extension. <br>
+Example: program.py <br>
+
+✅ 10. How to Run Python Program? <br>
+
+Write code in .py file → Run using: <br>
+
+python program.py <br> <br> <hr>
+
+✅ 11. Advantages of Python <br> <br>
+
+✔ Easy to read and write code <br>
+✔ Large community supportbr <br>
+
+✔ Powerful libraries (NumPy, Pandas, TensorFlow, Flask, etc.) <br>
+✔ Good for AI and ML <br> <br><hr>
+
+✅ 12. Disadvantages of Python <br>
+
+❌ Slower than compiled languages (C, C++) <br>
+❌ Not suitable for mobile app development <br>
+❌ High memory usage <br> <br>
+<br>
+
+📚 Exam-Ready Short Summary Sentence: <br>
+ <b>👉 “Python is a high-level, interpreted, <br>
+ easy-to-learn programming language used  <br>
+in Web Development, AI, Machine Learning and more. <br>
+ It supports object-oriented and procedural <br>
+  programming with simple syntax.” </b> <br><br> <br> <hr><hr>
+
+  <h2> Expression and statements </h2> <br>
+
+
+  🔹 1. What is an Expression in Python? <br>
+
+Answer: <br>''
+An Expression is a combination of values, variables, and operators. <br>
+It gives a result (output) when Python runs it. <br>
+Examples of expressions are math calculations or variable addition. <br>
+👉 Example: <br><br>
+
+x = 5 + 3  # Here, "5 + 3" is an expression and gives result 8 <br> <br>
+
+
+👉 Example: <br>
+
+y = 10 * 2  # Expression "10 * 2" gives 20 <br> <br>
+
+
+👉 Expression always returns a value.  <br> <hr>
+
+
+🔹 2. What is a Statement in Python? <br> <hr>
+
+Answer: <br>
+A Statement is a complete instruction to the computer. <br>
+It does something, like create a variable or print a message. <br>
+A statement may not return any value but performs an action. <br>
+👉 Example: <br>
+
+x = 5  # This is an assignment statement (It stores 5 in x) <br>
+
+print(x)  # This is a print statement (It shows the value of x on screen) <br> <hr>
+
+🔹 3. Difference Between Expression and Statement <br>
+Feature	Expression	Statement <br>
+Meaning	Combines values and operators to give a value	Gives an instruction to do something <br>
+Returns	Always returns a result	May or may not return a result <br>
+Example	5 + 3, x * 2	x = 10, print(x) <br>
+Purpose	Calculate values	Do actions in the program <br> <br>
+
+👉 Example in One Program: <br><br>
+
+x = 5 + 3  # '5 + 3' is Expression (result: 8) and 'x = 5 + 3' is Statement  <br>
+print(x)   # Statement (shows 8 on screen) <br> <hr>
+
+🔹 4. Why are Expressions Important? <br> <br>
+
+Expressions help us to calculate values easily. <br>
+They are used in assignments, conditions, and loops. <br>
+Without expressions, we cannot perform calculations. <br>
+👉 Example: <br>
+
+total = price * quantity  # Calculates total cost <br>
+
+🔹 5. Why are Statements Important? <br>
+
+Statements give instructions to the computer. <br>
+They help organize the program flow step by step. <br>
+Without statements, the computer won’t know what to do. <br>
+👉 Example: <br> <br>
+
+if x > 10:   <br>
+    print("x is big")  # A statement for decision <br> <br>
+
+✅ Short Simple Summary for Book <br>
+
+Expression → Calculates values → Returns result → Example: 5 + 3, x * 2 <br>
+
+Statement → Gives instructions → May not return result → Example: x = 5, print(x) <br>
+
+Expressions are part of statements. <br>
+
+Both help Python programs work correctly. <br>
+<br> <hr> <hr>
+
+
+<h2>3.Variables</h2> <br><hr>
+🔹 1. What is a Variable in Python? <br> <br>
+
+Answer: <br> <br>
+A Variable is a name that stores data in computer memory. <br>
+It works like a box where we keep numbers or text. <br>
+We can use variables to store data and use it later in the program. <br>
+👉 Example: <br> <br>
+python <br>
+x = 10  <br>
+name = "Shubh" <br>
+print(x)   <br>
+print(name) <br> <br>
+
+
+Output: <br>
+
+10   <br>
+Shubhbr <br> <br> <hr>
+
+
+🔹 2. How to Create a Variable? <br> <br>
+
+Answer: <br>
+We write the variable name and use = to give it a value. <br>
+The value can be a number or text. <br>
+👉 Example: <br><br>
+
+age = 20   <br>
+message = "I am learning Python"  <br>
+print(age)  <br>
+print(message) <br>
+
+
+Output: <br> <br>
+
+20   <br>
+I am learning Python <br> <br> <hr>
+
+🔹 3. Variable Types <br> <br>
+
+Integer (int) → Whole numbers → Example: <br> <br>
+python <br>
+x = 5   <br>
+print(x) <br> <br>
+
+
+Output: <br>
+
+5 <br> <br>
+
+
+Float (decimal numbers) → Example: <br>
+python <br>
+pi = 3.14  <br>
+print(pi) <br>
+
+
+Output: <br> <br>
+
+3.14 <br> <br>
+
+
+String (Text) → Example: <br>
+python <br>
+name = "Shubh"   <br>
+print(name) <br> <br>
+
+
+Output: <br> <br>
+
+Shubh <br> <br>
+
+
+Boolean (True / False) → Example: <br>
+python <br>
+flag = True   <br>
+print(flag) <br> <br>
+
+
+Output: <br> <br>
+
+True <br><br><hr>
+
+🔹 4. Rules to Create Variable Names <br> <br>
+
+Start with a letter or underscore. <br><br>
+
+No spaces or special characters allowed. <br>
+👉 Example of correct variables: <br><br>
+python <br>
+my_name = "Shubh"  <br>
+_user_age = 20  <br>
+print(my_name)  <br>
+print(_user_age) <br> <br>
+
+
+Output: <br><br>
+
+Shubh  <br>
+20 <br> <br> <hr>
+
+🔹 5. Changing Variable Values <br> <br>
+
+Answer: <br>
+We can change variable values anytime. <br>
+👉 Example: <br><br>
+
+x = 5  <br>
+print(x)  # Output: 5  <br> <br>
+
+x = 10  <br>
+print(x)  # Output: 10 <br> <br>
+
+
+Output: <br> <br>
+
+5  <br>
+10 <br> <br><hr>
+
+🔹 6. Why Variables Are Important? <br> <br>
+
+Variables help store data to reuse later. <br>
+They make programs simple and easy to read. <br>
+👉 Example: <br> <br>
+
+name = "Shubh"  <br>
+print("Hello", name) <br> <br>
+
+
+Output: <br>
+
+Hello Shubh <br> <br><hr>
+
+✅ Simple Summary for Book <hr> <br>
+
+  <b>Variables store data (numbers, text, True/False).
+
+Use = to assign value → Example: x = 5, name = "Shubh"
+
+Variable names should start with letter or underscore, no spaces.
+
+We can change variable values anytime.
+
+Output shows the stored data. </b> <br> <br> <br>
+
+<br> <br> <hr><hr>
+
+<h2> 4.Avoiding Name Error when using Variables </h2>
+
+🔹 1. What is Name Error in Python? <br> <br>
+
+Answer: <br>
+Name Error happens when we use a variable that is not created yet. <br>
+It means Python does not know that variable. <br>
+This gives an error and stops the program. <br>
+👉 Example of Name Error: <br> <br>
+
+print(x)  # x is not defined yet → NameError <br> <br> <br>
+
+
+Output: <br> <br>
+
+NameError: name 'x' is not defined <br> <br> <hr>
+
+🔹 2. How to Avoid Name Error? <br> <br>
+
+First, create the variable and give it a value. <br> <br>
+
+Then use the variable later in the program. <br>
+👉 Correct Example: <br> <br>
+
+x = 10  <br>
+print(x) <br> <br> <br>
+
+
+Output: <br> <br>
+
+10 <br> <br><hr>
+
+🔹 3. Example – Wrong vs Correct Way <br> <br>
+
+❌ Wrong Way (causes NameError): <br> <br>
+python <br>
+print(age)  # Error – age is not defined  <br>
+age = 20 <br> <br>
+
+
+Output: <br> <br>
+
+NameError: name 'age' is not defined <br> <br>
+
+
+✅ Correct Way: <br> <br>
+
+age = 20  <br>
+print(age) <br> <br>
+
+
+Output: <br> <br>
+
+20 <br> <br> <hr>
+
+🔹 4. Best Practice to Avoid Name Error <br> <br>
+
+Always define the variable before using it. <br> <br>
+
+Avoid typos in variable names (case-sensitive). <br>
+👉 Example of Typo Error: <br> <br>
+
+age = 20  <br>
+print(Age)  # NameError because 'Age' ≠ 'age' <br> <br>
+
+
+Correct Example: <br> <br>
+paython <br>
+age = 20   <br>
+print(age)  # Correct <br> <br> <hr><hr>
+
+✅ Simple Summary for Book <br>  <br>
+
+NameError happens if we use a variable before creating it. <br> <br>
+
+Always assign a value first → Example: x = 10 <br>
+
+Avoid typos → Example: age ≠ Age <br>
+
+Correct Example: <br>
+
+x = 5  <br>
+print(x) <br> <br>  <hr> <hr>
+
+<h2>5.Value and types </h2> <br><br>
+🔹 1. What is Name Error in Python? <br> <br>
+
+Answer: <br>
+Name Error happens when we use a variable that is not created yet. <br>
+It means Python does not know that variable. <br>
+This gives an error and stops the program. <br>
+👉 Example of Name Error: <br> <br>
+
+print(x)  # x is not defined yet → NameError <br> <br>
+
+
+Output: <br> <br>
+
+NameError: name 'x' is not defined <br> <br> <hr>
+
+🔹 2. How to Avoid Name Error? <br> <br>
+
+First, create the variable and give it a value. <br> <br>
+
+Then use the variable later in the program. <br>
+👉 Correct Example: <br> <br>
+
+x = 10  <br>
+print(x) <br> <br>
+
+
+Output: <br>
+
+10 <br> <br> <hr>
+
+🔹 3. Example – Wrong vs Correct Way <br> <br>
+
+❌ Wrong Way (causes NameError): <br> <br>
+
+print(age)  # Error – age is not defined  <br>
+age = 20 <br> <br>
+
+
+Output: <br> <br>
+
+NameError: name 'age' is not defined <br> <br>
+
+
+✅ Correct Way: <br>
+
+age = 20   <br>
+print(age) <br> <br>
+
+
+
+
+Output: <br> <br>
+
+20 <br> <br> <hr>
+
+🔹 4. Best Practice to Avoid Name Error <br>
+
+Always define the variable before using it. <br> <br>
+
+Avoid typos in variable names (case-sensitive). <br>
+👉 Example of Typo Error: <br> <br>
+
+age = 20  <br>
+print(Age)  # NameError because 'Age' ≠ 'age' <br> <br>
+
+
+Correct Example: <br> <br>
+
+age = 20  <br>
+print(age)  # Correct <br> <br>
+
+✅ Simple Summary for Book <br> <br>
+
+NameError happens if we use a variable before creating it. <br> <br>
+
+Always assign a value first → Example: x = 10 <br> <br>
+
+Avoid typos → Example: age ≠ Age <br> <br>
+
+Correct Example: <br> <br>
+
+x = 5  <br>
+print(x) <br>
+<br> <br> <hr> <hr>
+<h2>6.Variables Name and keyboards</h2> <br><br> </b>
+
 </body>
 </html>
